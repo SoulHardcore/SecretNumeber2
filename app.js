@@ -39,7 +39,7 @@ function verificarChute()
         exibirTextoNaTela('h1', 'Acertou!');
         exibirTextoNaTela('p', mensagemTentativas);
         //'Você descobriu o número secreto com ' + tentativas + ' ' + palavraTentativa + '!'
-        alert('Acertou');
+        //alert('Acertou');
         document.getElementById('reiniciar').removeAttribute('disabled');
     } 
     else 
