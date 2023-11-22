@@ -47,12 +47,13 @@ function verificarChute()
         tentativas = tentativas + 1;
         if (chute > numeroSecreto) 
         {
-            exibirTextoNaTela('p', 'O número secreto é menor');
+            exibirTextoNaTela('p', 'O número secreto é menor que ' + chute);
         } 
         else 
         {
-            exibirTextoNaTela('p', 'O número secreto é maior');
+            exibirTextoNaTela('p', 'O número secreto é maior que ' + chute);
         }
+        limparCampo();
     }
 }
 
